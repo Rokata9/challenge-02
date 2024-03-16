@@ -142,7 +142,7 @@ body {
 
   &.btn-outline {
     border: 2px solid var(--btn-fg);
-    padding: calc(0.625em - 2px) calc(1.5em - 2px);
+    padding: calc(0.625em - 2px) calc(1.5em - 2px); // makes it the same size as the other buttons (subtract 2px because of border)
     --btn-bg: var(--clr-neutral-100);
     --btn-fg: var(--clr-primary-400);
 
